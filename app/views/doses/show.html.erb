@@ -1,0 +1,8 @@
+<h1><%= @dose.name %></h1>
+
+<h2>Doses</h2>
+<ul>
+  <% @dose.ingredients.each do |dose| %>
+    <li> <%= dose.name %> </li>
+  <% end %>
+</ul>
